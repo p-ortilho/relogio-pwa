@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(25, 8, 41);
+}
+
+.container__gif{
+    width: 760px;
+    height: 345px;
+    overflow: hidden;
+    padding: 30px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* A imagem cobre o container sem distorcer */
+    object-position: center; /* Centraliza a imagem dentro do container */
+}
+
+.container__relogio{
+    display: grid;
+    grid-template-areas: "container__horas container__minutos container__segundos";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-gap: 10px;
+    width: 550px;
+    height: 130px;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 5px 10px 20px rgba(243, 241, 241, 0.37);
+}
+
+.container__horas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    grid-area: container__horas;
+    background: rgb(32, 32, 32);
+    border-radius: 5px;
+}
+
+.container__minutos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    grid-area: container__minutos;
+    background: rgb(32, 32, 32);
+    border-radius: 5px;
+}
+
+.container__segundos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    grid-area: container__segundos;
+    background: rgb(32, 32, 32);
+    border-radius: 5px;
+}
+
+.text{
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+.time{
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 80px;
+}
