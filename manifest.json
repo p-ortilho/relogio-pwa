@@ -1,0 +1,16 @@
+{
+    "name": "Relógio PWA",
+    "short_name": "Relógio",
+    "description": "Relógio feito para estudar os conceitos de PWA em aplicações Web.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "rgb(25, 8, 41)",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/assets/timeclock.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
