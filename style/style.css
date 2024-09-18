@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Micro+5&display=swap');
 
 html, body{
     width: 100%;
@@ -84,11 +84,12 @@ img {
 
 .text{
     color: white;
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Micro 5", sans-serif;
+    font-size: 30px;
 }
 
 .time{
     color: white;
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Micro 5", sans-serif;
     font-size: 80px;
 }
