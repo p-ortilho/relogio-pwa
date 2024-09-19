@@ -2,7 +2,7 @@
     "name": "Relógio PWA",
     "short_name": "Relógio",
     "description": "Relógio feito para estudar os conceitos de PWA em aplicações Web.",
-    "start_url": "/",
+    "start_url": "/relogio-pwa/",
     "display": "standalone",
     "background_color": "rgb(25, 8, 41)",
     "theme_color": "#ffffff",
