@@ -11,13 +11,13 @@ self.addEventListener('install', function(event) {
             
             // Adiciona todos os recursos listados ao cache.
             return cache.addAll([
-                '/relogio-pwa/',                  // A página inicial da aplicação.
-                '/relogio-pwa/index.html',        // O arquivo HTML principal.
-                '/relogio-pwa/style/style.css',   // Estilos da página.
-                '/relogio-pwa/style/reset.css',   // Reset de estilos para padronizar o layout.
-                '/relogio-pwa/javascript/script.js', // Arquivo JavaScript.
-                '/relogio-pwa/assets/timeclock.png', // Imagem usada na aplicação.
-                '/relogio-pwa/assets/timeclock.ico'  // Ícone da aplicação.
+                '/',                  // A página inicial da aplicação.
+                '/index.html',        // O arquivo HTML principal.
+                '/style/style.css',   // Estilos da página.
+                '/style/reset.css',   // Reset de estilos para padronizar o layout.
+                '/javascript/script.js', // Arquivo JavaScript.
+                '/assets/timeclock.png', // Imagem usada na aplicação.
+                '/assets/timeclock.ico'  // Ícone da aplicação.
             ]);
         }).catch(function(error) {
             // Caso ocorra um erro durante o processo de cache, ele será capturado e exibido no console.
